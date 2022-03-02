@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="796cfa1c-e6e3-4206-be2c-bf8ebfc8544d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/IArea.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/shape.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../New folder/New Text Document.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="25orKp9eI3XT71aQL6HTIfwoulF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vn.codegym.su_dung_adobe_color.dto" />
+      <recent name="vn.codegym.su_dung_adobe_color.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\up_git\C0921G1_HuynhMinhCa_Modul_5\can_ban_ve_ux_ui\thuc_hanh\su_dng_adobe_color\src\main\resources\templates" />
+      <recent name="F:\up_git\C0921G1_HuynhMinhCa_Modul_5\can_ban_ve_ux_ui\thuc_hanh\su_dng_adobe_color\src\main\java\vn\codegym\su_dung_adobe_color\repository" />
+      <recent name="F:\up_git\C0921G1_HuynhMinhCa_Modul_5\can_ban_ve_ux_ui\thuc_hanh\su_dng_adobe_color\src\main\java\vn\codegym\su_dung_adobe_color\model" />
+      <recent name="F:\up_git\C0921G1_HuynhMinhCa_Modul_5\can_ban_ve_ux_ui\thuc_hanh\su_dng_adobe_color\src\main\java\vn\codegym\su_dung_adobe_color\service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SuDungAdobeColorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="su_dung_adobe_color.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.codegym.su_dung_adobe_color.SuDungAdobeColorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="796cfa1c-e6e3-4206-be2c-bf8ebfc8544d" name="Default Changelist" comment="" />
+      <created>1646204218684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646204218684</updated>
+      <workItem from="1646204225867" duration="1398000" />
+      <workItem from="1646206219936" duration="761000" />
+      <workItem from="1646211351196" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
