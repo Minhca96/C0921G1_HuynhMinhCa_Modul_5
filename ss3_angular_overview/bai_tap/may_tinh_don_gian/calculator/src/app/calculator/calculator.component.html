@@ -1,0 +1,15 @@
+<span>First Number:</span>
+<input type="number" name="firstNumber" #number1 >
+<select name="phep_tinh" id="" #choise>
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="*">*</option>
+  <option value="/">/</option>
+</select>
+<span>Last Number:</span>
+<input type="number" name="lastNumber" #number2>
+<button (click)="tinh(number1.value,number2.value,choise.value)">Tính</button>
+<h1>{{result}}</h1>
+
+
+

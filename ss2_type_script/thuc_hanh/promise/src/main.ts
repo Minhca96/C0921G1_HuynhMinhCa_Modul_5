@@ -1,19 +1,20 @@
+
+
 let money = 10000;
-const buyACar = (car: any) => {
-    return new Promise(((resolve, reject) => {
-        setTimeout(() => {
-            if (money >= 10000) {
-                resolve("can buy " + car);
-            } else {
-                reject("Do not enough money");
+const buyCar = (car: any) => {
+    return new Promise(((resolve,reject)=>{
+        setInterval(()=>{
+            if(money>=10000){
+                resolve("can buy" + car)
+            }else{
+                reject("do not enough money")
             }
-        }, 100);
+        },100)
     }))
 }
-
-money = 1000001;
-const promise = buyACar("Vinfast").then(value => {
+money = 1000001
+const promise = buyCar("vinfast").then(value => {
     console.log(value);
-}, error => {
-    console.log(error);
+},error => {
+    console.log(error)
 })

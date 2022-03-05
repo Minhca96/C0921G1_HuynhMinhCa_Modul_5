@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3be7bf85-44a0-4ed7-b177-32bcc675d95c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../can_ban_ve_ux_ui/thuc_hanh/su_dng_adobe_color/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../can_ban_ve_ux_ui/thuc_hanh/su_dng_adobe_color/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tinh_tong_cac_so_fibonicci/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tinh_tong_cac_so_fibonicci/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../tinh_tong_cac_so_fibonicci/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/promise/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/promise/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuc_hanh/promise/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="25u9x9nQ39FJWaefGa9P5YvYo1p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (untitled)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (untitled)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3be7bf85-44a0-4ed7-b177-32bcc675d95c" name="Default Changelist" comment="" />
+      <created>1646366347194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646366347194</updated>
+      <workItem from="1646366348991" duration="419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="86" key="FileChooserDialogImpl" timestamp="1646366738822">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="86" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1646366738822" />
+  </component>
+</project>

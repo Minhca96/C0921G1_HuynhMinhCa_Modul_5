@@ -20,22 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796cfa1c-e6e3-4206-be2c-bf8ebfc8544d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/cau_lenh_dk_va_vong_lap/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/khai_bao_bien/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/kiem_tra_so_nguye_to/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/IArea.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/shape.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../New folder/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +87,9 @@
       <workItem from="1646204225867" duration="1398000" />
       <workItem from="1646206219936" duration="761000" />
       <workItem from="1646211351196" duration="18000" />
+      <workItem from="1646296829269" duration="91000" />
+      <workItem from="1646367171901" duration="1300000" />
+      <workItem from="1646376210505" duration="12000" />
     </task>
     <servers />
   </component>
