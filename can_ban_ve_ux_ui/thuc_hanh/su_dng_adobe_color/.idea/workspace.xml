@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="796cfa1c-e6e3-4206-be2c-bf8ebfc8544d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../ss5_components_interaction/thuc_hanh/name-card/src/test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/bai_tap/tinh_tong_cac_so_fibonicci/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/promise/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss2_type_script/thuc_hanh/xay_dung_doi_tuong_hinh_hoc/src/rectangle.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +86,8 @@
       <workItem from="1646296829269" duration="91000" />
       <workItem from="1646367171901" duration="1300000" />
       <workItem from="1646376210505" duration="12000" />
+      <workItem from="1646640675096" duration="1100000" />
+      <workItem from="1646670588024" duration="259000" />
     </task>
     <servers />
   </component>
