@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="col-5 m-auto">
+    <form [formGroup]="studentForm">
+      <!--  <fieldset disabled>-->
+      <legend>Form</legend>
+      <div class="mb-3">
+        <label class="form-label">name</label>
+        <input type="text" formControlName="name" class="form-control" placeholder="Disabled input">
+      </div>
+      <div class="mb-3 text-danger"
+           *ngIf="studentForm.get('name').hasError('required')
+&& studentForm.get('name').dirty">
+        please input name
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Country</label>
+        <select formControlName="country" class="form-control" placeholder="Disabled input" >
+          <option value="Da Nang" >Da Nang</option>
+          <option value="Ha Noi" >Ha Noi</option>
+          <option value="Quang Nam" >Quang Nam</option>
+          <option value="Quang Ngai" >Quang Ngai</option>
+        </select>
+<!--        <input type="text" formControlName="name" class="form-control" placeholder="Disabled input">-->
+      </div>
+      <div class="mb-3 text-danger"
+           *ngIf="studentForm.get('country').hasError('required')&&
+studentForm.get('country').dirty">
+        country not required
+      </div>
+
+
+      <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="number" formControlName="phone" class="form-control" placeholder="Disabled input">
+      </div>
+      <div class="mb-3 text-danger" *ngIf="studentForm.get('phone').hasError('required')&&
+studentForm.get('phone').dirty">
+        phone not required
+      </div>
+      <div class="mb-3 text-danger" *ngIf="studentForm.get('phone').hasError('pattern')&&
+studentForm.get('phone').dirty">
+        phone regex
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Age</label>
+        <input type="date" formControlName="age" class="form-control" placeholder="Disabled input">
+      </div>
+      <div class="mb-3 text-danger" *ngIf="studentForm.get('age').hasError('check18')&&
+studentForm.get('age').dirty">
+        not 18 year old
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">PassWord</label>
+        <input type="password" formControlName="passWord" class="form-control" placeholder="Disabled input">
+      </div>
+      <div class="mb-3 text-danger" *ngIf="studentForm.get('passWord').hasError('check18')&&
+studentForm.get('passWord').dirty">
+        password not match
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="save()">Submit</button>
+      <!--  </fieldset>-->
+    </form>
+  </div>
+</div>
+
