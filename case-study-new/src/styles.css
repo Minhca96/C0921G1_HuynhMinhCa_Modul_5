@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*home*/
+.p{
+  margin-left: 300px;
+
+}
+.menu li{
+  position: relative;
+  float: left;
+  list-style: none;
+}
+.account li{
+  position: relative;
+  float: left;
+  list-style: none;
+
+}
+.surface_8_pro li{
+  position: relative;
+  float: left;
+  list-style: none;
+}
+.feed_back li{
+  position: relative;
+  float: left;
+  list-style: none;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.menu li:hover{
+  background-color: lemonchiffon;
+}
+
+.product:hover{
+  background-color: lemonchiffon;
+}
+.feed_back li:hover{
+  background-color: lemonchiffon;
+}
+.footerconstraint-inner {
+  max-width: 1094px;
+  min-width: 620px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+body {
+  background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);
+  font-family: 'Roboto', sans-serif;
+}
+.bg-body{
+  background: -webkit-linear-gradient(left, #25b7c4, #25b7c4);
+  background: linear-gradient(to right, #25b7c4, #25b7c4);
+
+  font-family: 'Roboto', sans-serif;
+}

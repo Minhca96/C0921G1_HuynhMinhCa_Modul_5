@@ -1,0 +1,75 @@
+
+
+<div class="login-box">
+  <h2>Create Customer</h2>
+  <p>
+    <a [routerLink]="['']"  >
+      Back to Table of Customers
+    </a>
+  </p>
+  <form [formGroup]="formCustomer" (ngSubmit)="create()" >
+<!--    <div class="user-box">-->
+<!--      <label>Id</label><br>-->
+<!--      <input type="number" formControlName="id" required="">-->
+
+<!--    </div>-->
+    <div class="user-box">
+      <label>Customer Type</label><br><br>
+      <select name="cars" id="cars" formControlName="customerType" class="form-control" >
+        <option [ngValue]="cmt" *ngFor="let cmt of customerTypeList">{{cmt.name}}</option>
+      </select>
+    </div>
+    <div class="user-box">
+      <label>Name</label><br>
+      <input type="text" formControlName="name" required="">
+    </div>
+    <div class="mb-3 text-danger"
+         *ngIf="formCustomer.get('name').hasError('required')&&
+formCustomer.get('name').dirty">
+      country not required
+    </div>
+    <div class="user-box">
+      <label>BirthDay</label><br>
+      <input type="date" formControlName="birthDay" required="">
+    </div>
+    <div class="mb-3 text-danger"
+         *ngIf="formCustomer.get('birthDay').hasError('required')&&
+formCustomer.get('birthDay').dirty">
+      country not required
+    </div>
+    <div class="mb-3 text-danger"
+         *ngIf="formCustomer.get('birthDay').hasError('check18')&&
+formCustomer.get('birthDay').dirty">
+      not 18 year old
+    </div>
+
+    <div class="user-box">
+      <label>Gender</label><br>
+      <input type="text" formControlName="gender" required="">
+    </div>
+    <div class="user-box">
+      <label>Card</label><br>
+      <input type="text" formControlName="card" required="">
+    </div>
+    <div class="user-box">
+      <label>Phone</label><br>
+      <input type="text" formControlName="phone" required="">
+    </div>
+    <div class="user-box">
+      <label>mail</label><br>
+      <input type="text" formControlName="mail" required="">
+    </div>
+    <div class="user-box">
+      <label>Address</label><br>
+      <input type="text" formControlName="address" required="">
+    </div>
+
+    <div>
+      <button type="submit">Create</button>
+    </div>
+
+  </form>
+</div>
+
+
+

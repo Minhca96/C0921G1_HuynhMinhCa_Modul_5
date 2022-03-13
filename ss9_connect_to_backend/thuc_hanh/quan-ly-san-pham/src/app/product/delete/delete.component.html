@@ -1,0 +1,37 @@
+
+<div class="login-box">
+  <h2>Detail Product</h2>
+  <p>
+    <!--    <a th:href="@{service/serviceList}" >-->
+    <!--      Back to Service-->
+    <!--    </a>-->
+  </p>
+
+
+
+  <form [formGroup]="productForm" (ngSubmit)="delete(id)" >
+    <div class="user-box">
+      <label>Id</label><br>
+      <input type="number" formControlName="id" required="">
+
+    </div>
+    <div class="user-box">
+      <label>Name</label><br>
+      <input type="text" formControlName="name" required="">
+    </div>
+    <div class="user-box">
+      <label>Price</label><br>
+      <input type="text" formControlName="price" required="">
+    </div>
+    <div class="user-box">
+      <label>description</label><br>
+      <input type="text" formControlName="description" required="">
+    </div>
+
+    <div>
+      <button type="submit">Delete</button>
+    </div>
+
+  </form>
+</div>
+

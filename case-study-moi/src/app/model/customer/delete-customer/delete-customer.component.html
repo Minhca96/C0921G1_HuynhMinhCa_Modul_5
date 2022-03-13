@@ -1,0 +1,56 @@
+
+
+<div class="login-box">
+  <h2>Detail Customer</h2>
+  <p>
+        <a [routerLink]="['']"  >
+          Back to Service
+        </a>
+  </p>
+  <form [formGroup]="formCustomer" (ngSubmit)="delete()" >
+    <div class="user-box">
+      <label>Id</label><br>
+      <input type="number" formControlName="id" required="">
+
+    </div>
+    <div class="user-box">
+      <label>Customer Type</label><br>
+      <input type="text" formControlName="customerType" required="">
+    </div>
+    <div class="user-box">
+      <label>Name</label><br>
+      <input type="text" formControlName="name" required="">
+    </div>
+    <div class="user-box">
+      <label>BirthDay</label><br>
+      <input type="text" formControlName="birthDay" required="">
+    </div>
+    <div class="user-box">
+      <label>Gender</label><br>
+      <input type="text" formControlName="gender" required="">
+    </div>
+    <div class="user-box">
+      <label>Card</label><br>
+      <input type="text" formControlName="card" required="">
+    </div>
+    <div class="user-box">
+      <label>Phone</label><br>
+      <input type="text" formControlName="phone" required="">
+    </div>
+    <div class="user-box">
+      <label>mail</label><br>
+      <input type="text" formControlName="mail" required="">
+    </div>
+    <div class="user-box">
+      <label>Address</label><br>
+      <input type="text" formControlName="address" required="">
+    </div>
+
+    <div>
+      <button type="submit">Delete</button>
+    </div>
+
+  </form>
+</div>
+
+

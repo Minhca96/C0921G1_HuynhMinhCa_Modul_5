@@ -1,0 +1,82 @@
+{
+  "customerList": [
+    {
+      "id": 5,
+      "customerType": {
+        "id": 5,
+        "name": "Medium"
+      },
+      "name": "Doan Chi Binh",
+      "birthDay": "1999-07-12",
+      "gender": "male",
+      "card": "023412312",
+      "phone": "0823202011",
+      "mail": "binh@gmail.com",
+      "address": "Da Nang"
+    },
+    {
+      "id": 10,
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "23",
+      "birthDay": "2022-03-25",
+      "gender": "male",
+      "card": "322",
+      "phone": "23",
+      "mail": "23",
+      "address": "23"
+    },
+    {
+      "id": 12,
+      "customerType": {
+        "id": 1,
+        "name": "Diamond"
+      },
+      "name": "Dai Ca",
+      "birthDay": "2022-03-16",
+      "gender": "male",
+      "card": "123",
+      "phone": "123",
+      "mail": "123",
+      "address": "123"
+    },
+    {
+      "id": 13,
+      "customerType": {
+        "id": 2,
+        "name": "Platinum"
+      },
+      "name": "da",
+      "birthDay": "2002-01-01",
+      "gender": "a",
+      "card": "12",
+      "phone": "12",
+      "mail": "12",
+      "address": "12"
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "Diamond"
+    },
+    {
+      "id": 2,
+      "name": "Platinum"
+    },
+    {
+      "id": 3,
+      "name": "Gold"
+    },
+    {
+      "id": 4,
+      "name": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Medium"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight">
+    <a class="bg-success btn btn-outline-dark" [routerLink]="['/product/create']" >
+      Add Product</a>
+  </div>
+  <div class="p-2 flex-fill bd-highlight">
+    <h1  style="margin-right: 455px">Table Product</h1 ></div>
+
+</div>
+
+<div class="tbl-header">
+  <table cellpadding="0" cellspacing="0" border="0" class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th >Name</th>
+      <th >Price</th>
+      <th >Description</th>
+
+      <th >Edit</th>
+      <th >Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let product of productList ">
+      <td>{{product.id}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td>{{product.description}}</td>
+      <td>
+
+        <a class="bg-success btn btn-outline-dark" [routerLink]="['/product/edit',product.id]" >
+          Edit</a>
+      </td>
+      <td>
+        <a class="bg-success btn btn-outline-dark" [routerLink]="['/product/delete',product.id]">
+          Delete</a>
+    </tbody>
+  </table>
+</div>
+
+
+

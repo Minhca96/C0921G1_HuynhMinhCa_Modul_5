@@ -1,0 +1,48 @@
+
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight">
+    <a class="bg-success btn btn-outline-dark" [routerLink]="['/customer/create']" >
+      Add Customer</a>
+  </div>
+  <div class="p-2 flex-fill bd-highlight">
+    <h1  style="margin-right: 455px">Table Customer</h1 ></div>
+
+</div>
+
+<div class="tbl-header">
+  <table cellpadding="0" cellspacing="0" border="0" class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th >Name</th>
+      <th>Customer Type</th>
+      <th >phone</th>
+      <th>Address</th>
+
+      <th >Edit</th>
+      <th >Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let customer of customers ">
+      <td>{{customer.id}}</td>
+      <td>{{customer.name}}</td>
+      <td>{{customer.customerType.name}}</td>
+      <td>{{customer.phone}}</td>
+      <td>{{customer.address}}</td>
+      <td>
+
+        <a class="bg-success btn btn-outline-dark" [routerLink]="['/customer/edit',customer.id]" >
+          Edit</a>
+      </td>
+      <td>
+        <a class="bg-success btn btn-outline-dark" [routerLink]="['/customer/delete',customer.id]">
+          Delete</a>
+    </tbody>
+  </table>
+</div>
+
+
+
+
