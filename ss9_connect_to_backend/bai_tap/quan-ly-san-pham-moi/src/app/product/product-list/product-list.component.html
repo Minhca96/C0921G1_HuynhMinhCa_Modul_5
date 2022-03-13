@@ -1,0 +1,75 @@
+
+<div class="d-flex bd-highlight">
+  <div class="p-2 flex-fill bd-highlight">
+    <a class="bg-success btn btn-outline-dark" routerLink="/create" >
+      Add Customer</a>
+  </div>
+  <div class="p-2 flex-fill bd-highlight">
+    <h1  style="margin-right: 250px">Table of Products</h1 ></div>
+
+</div>
+
+<div class="tbl-header">
+  <table cellpadding="0" cellspacing="0" border="0" class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th >Category</th>
+      <th>Name</th>
+      <th >Price</th>
+      <th>Production</th>
+
+      <th >Edit</th>
+      <th >Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let product of productList">
+      <td>{{product.id}}</td>
+      <td>{{product.categoryId.name}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.price}}</td>
+      <td>{{product.production}}</td>
+      <td>
+        <a class="bg-success btn btn-outline-dark" [routerLink]="['/edit',product.id]" >
+          Edit</a>
+      </td>
+
+      <td>
+        <button type="button" class="bg-danger btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal"   (click)="findById(product.id)">
+          Delete
+        </button>
+      </td>
+    </tbody>
+  </table>
+
+<!--   Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-info">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-info">
+          <div>Do you wan delete product:</div>
+          <div>ID:{{productObj.id}}</div>
+<!--          <div>Category:{{productObj.categoryId.id}}</div>-->
+          <div>Name:{{productObj.name}}</div>
+          <div>Price:{{productObj.price}}</div>
+          <div>Production:{{productObj.production}}</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger" (click)="deleteProduct(productObj.id)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

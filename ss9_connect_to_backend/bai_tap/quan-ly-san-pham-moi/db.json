@@ -1,0 +1,94 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "categoryId": {
+        "id": 1,
+        "name": "SS"
+      },
+      "name": "samsung galaxy s10",
+      "price": 5000000,
+      "production": "Han Quoc"
+    },
+    {
+      "id": 2,
+      "categoryId": {
+        "id": 2,
+        "name": "AP"
+      },
+      "name": "Iphone 13",
+      "price": 25000000,
+      "production": "My"
+    },
+    {
+      "id": 3,
+      "categoryId": {
+        "id": 3,
+        "name": "XI"
+      },
+      "name": "Mi 11 Ultra",
+      "price": 15000000,
+      "production": "China"
+    },
+    {
+      "id": 4,
+      "categoryId": {
+        "id": 1,
+        "name": "SS"
+      },
+      "name": "samsung galaxy s20",
+      "price": 10000000,
+      "production": "Han Quoc"
+    },
+    {
+      "id": 5,
+      "categoryId": {
+        "id": 4,
+        "name": "OP"
+      },
+      "name": "OPPO find x 3",
+      "price": 15000000,
+      "production": "China"
+    },
+    {
+      "id": 6,
+      "categoryId": {
+        "id": 2,
+        "name": "AP"
+      },
+      "name": "Iphone 12",
+      "price": 15000000,
+      "production": "My"
+    }
+  ],
+  "categoryList": [
+    {
+      "id": 1,
+      "name": "SS"
+    },
+    {
+      "id": 2,
+      "name": "AP"
+    },
+    {
+      "id": 3,
+      "name": "XI"
+    },
+    {
+      "id": 4,
+      "name": "OP"
+    },
+    {
+      "id": 5,
+      "name": "VI"
+    },
+    {
+      "id": 6,
+      "name": "LG"
+    },
+    {
+      "id": 7,
+      "name": "Motorola"
+    }
+  ]
+}
